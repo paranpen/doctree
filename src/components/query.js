@@ -1,5 +1,5 @@
-require('../public/css/highlight/sunburst.css')
-require('../public/css/query.css')
+require('../../public/css/highlight/sunburst.css')
+require('../../public/css/query.css')
 
 let React = require('react')
 let ReactDOM = require('react-dom')

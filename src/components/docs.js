@@ -6,7 +6,7 @@ let Doc = require('./doc.js')
 let Query = require('./query.js')
 let AddDoc = require('./add-doc.js')
 
-require('../public/css/docs.css')
+require('../../public/css/docs.css')
 
 let Docs = React.createClass({
   getInitialState(){

@@ -3,7 +3,7 @@ let React = require('react')
 let CopyToClipboard = require('react-copy-to-clipboard')
 let EditDoc = require('./edit-doc.js')
 
-require('../public/css/doc.css')
+require('../../public/css/doc.css')
 
 let Doc = React.createClass({
   getInitialState(){
@@ -23,7 +23,7 @@ let Doc = React.createClass({
       return `"${value.toString()}"`
     return value
   },
-  toggle(node, toggle){
+  toggle(node, toggled){
     if(this.state.cursor){this.state.cursor.active = false;}
     node.active = true;
     if(node.children){ node.toggled = toggled; }
